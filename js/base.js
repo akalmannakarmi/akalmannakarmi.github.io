@@ -3,6 +3,11 @@ fetch('details/index/navbar.html')
     .then(data => {
     document.getElementById("my-navbar").innerHTML=data;
 });
+fetch('details/index/footer.html')
+    .then(response => response.text())
+    .then(data => {
+    document.getElementById("my-footer").innerHTML=data;
+});
 fetch('details/myinfo/intro.html')
     .then(response => response.text())
     .then(data => {
