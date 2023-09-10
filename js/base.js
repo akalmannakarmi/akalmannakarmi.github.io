@@ -18,3 +18,4 @@ fetch('details/myinfo/projects.html')
     .then(data => {
     document.getElementById("my-projects").innerHTML=data;
 });
+
