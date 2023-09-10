@@ -2,3 +2,11 @@ body {
     margin: 0;
     font-family: sans-serif;
 }
+.h-center{
+    margin: 0 auto;
+    display: block;
+}
+#top-body{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat; background-size: cover;
+}
